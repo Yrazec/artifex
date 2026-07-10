@@ -1,0 +1,12 @@
+device: cuda
+seed: 42
+
+model:
+    type: sdxl
+    checkpoint: stabilityai/stable-diffusion-xl-base-1.0
+
+generation:
+    width: 1024
+    height: 1024
+    steps: 20
+    guidance_scale: 4.0
